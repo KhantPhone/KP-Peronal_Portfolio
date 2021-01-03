@@ -185,6 +185,15 @@ nav{
 
 }
 /*counter*/
+.counter-border-right{
+	border-right: 1px solid #EEE6E6;
+}
+@media screen and (max-width:768px){
+
+.counter-border-right{
+	border-right: 1px solid #FFFFFF;	
+	}
+}
 @media screen and (max-width: 786px){
 	#counter .col-md-3 p {
 		font-size: 18px;
