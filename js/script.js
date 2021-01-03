@@ -45,3 +45,16 @@ swal("", "Your Email has been sent!", "success");
 	});
 
 	});
+$('#submit').click(function(){
+			var email = $('#email').val();
+			var subject = $('#subject').val();
+			if (email == '' || subject == '') {
+				swal("", "Please enter missing fields!", "error");
+
+			}
+			else{
+				swal("","Your email has been sent!","success");
+			
+
+			}
+		})

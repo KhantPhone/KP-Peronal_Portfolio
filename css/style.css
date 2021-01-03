@@ -316,8 +316,8 @@ nav{
 	100%{width: 100%;}
 }
 /*contanct*/
-#contanct form input[type = text],
-#contanct form input[type = email]{
+#contanct  input[type = text],
+#contanct  input[type = email]{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -325,17 +325,18 @@ nav{
 	border-bottom: 1px solid #000 !important;
 	margin-top: 50px;
 	width: 50%;
+	
 }
 #contanct button{
 	border:none;
 	box-shadow: 0 1px 15px 0 rgba(0,0,25,0.2); 
 	transition: 0.5s ease;
-	color:red;
+
 
 }
 @media screen and (max-width: 768px){
-	#contanct form input[type = text],
-	#contanct form input[type = email]{
+	#contanct  input[type = text],
+	#contanct  input[type = email]{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -343,6 +344,7 @@ nav{
 	border-bottom: 1px solid #000 !important;
 	margin-top: 50px;
 	width: 100%;
+
 }
 
 }
