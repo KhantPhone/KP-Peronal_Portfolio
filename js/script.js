@@ -2,7 +2,7 @@
 var typed = new Typed('.typed1',{
 	strings:[
 	'Khant Phone .',
-	'Junior Web developer.',
+	'Web developer.',
 	'Freelancer.'
 	],
 	typeSpeed:50,

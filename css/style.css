@@ -141,7 +141,8 @@ nav{
 	border-radius: 200px;	
 }
 #info p{
-	font-size: 18px;
+	font-size:16px;
+	letter-spacing: 1px!important;
 }
 }
 /*intro*/
