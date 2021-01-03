@@ -352,6 +352,7 @@ nav{
 	box-shadow: 0 1px 15px 0 rgba(0,0,25,0.1);
 	transition: 1s ease;
 	border-radius: 5px;
+	
 
 }
 #services .card:hover{
@@ -372,4 +373,3 @@ nav{
 		font-size: 16px;
 	}
 }
-/*counter*/	
