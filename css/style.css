@@ -374,4 +374,25 @@ nav{
 	#services .card p{
 		font-size: 16px;
 	}
+
+#services .card:hover > img{	
+	
+	transition: 0.5s  ease;
+	transform: translateY(-0%);
+	
+}
+}
+/*swiper*/
+#swiper .swiper-slide{
+ padding: 3rem 9rem;
+}
+@media screen and (max-width: 768px){
+
+#swiper .swiper-slide{
+ padding: 2.5rem 0rem;
+ text-align: center;
+}
+#swiper .swiper-slide h5{
+	margin-top: 1.5rem;
+}
 }

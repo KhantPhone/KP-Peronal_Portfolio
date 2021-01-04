@@ -58,3 +58,21 @@ $('#submit').click(function(){
 
 			}
 		})
+
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      centeredSlides: true,
+      spaceBetween: 30,
+      grabCursor: true,
+      loop:true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+
+      loop:true,
+       autoplay: {
+        delay:1500,
+        disableOnInteraction: false,
+      },
+    });
