@@ -392,7 +392,13 @@ nav{
  padding: 2.5rem 0rem;
  text-align: center;
 }
-#swiper .swiper-slide h5{
+#swiper .swiper-slide h2{
 	margin-top: 1.5rem;
+	font-size: 18px;
 }
+#swiper .swiper-slide p{
+	margin-top: 0.6rem;
+	font-size: 15px;
+}
+
 }
