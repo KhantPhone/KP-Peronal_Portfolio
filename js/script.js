@@ -76,3 +76,17 @@ $('#submit').click(function(){
         disableOnInteraction: false,
       },
     });
+
+  $('document').ready(function () {
+  	$bars = $('.fa-bars');
+  	$times = $('.fa-times');
+
+  	$bars.click(function(){
+  		$bars.hide();
+  		$times.show();
+  	});
+  	$times.click(function(){
+  		$times.hide();
+  		$bars.show();
+  	})
+  })
