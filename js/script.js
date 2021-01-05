@@ -72,7 +72,7 @@ $('#submit').click(function(){
 
       loop:true,
        autoplay: {
-        delay:1500,
+        delay:150000000,
         disableOnInteraction: false,
       },
     });
