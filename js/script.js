@@ -1,4 +1,4 @@
-
+/*typedJs*/
 var typed = new Typed('.typed1',{
 	strings:[
 	'Khant Phone .',
@@ -9,6 +9,7 @@ var typed = new Typed('.typed1',{
 	backSpeed:50,
 	loop:true
 })
+/*toTop*/
  const toTop = document.querySelector(".to-top");
   window.addEventListener("scroll",() => {
 
@@ -18,20 +19,17 @@ var typed = new Typed('.typed1',{
         toTop.classList.remove("active");
      }
     });
-	
-function myFunction() {			
-swal("", "Your Email has been sent!", "success");
+/*sweetalertJs*/
+		function myFunction() {			
+		swal("", "Your Email has been sent!", "success");
 			}
-
 	    AOS.init({	    	
 	    	duration:1200,
 	    	delay:250,
-	    	offset:100
-	    	  		    	
+	    	offset:100	    	  		    	
 	    });
+/*counterJs*/
 	$(document).ready(function() {
-
-
 	$('.counter').each(function () {
 	$(this).prop('Counter',0).animate({
 	Counter: $(this).text()
@@ -43,9 +41,10 @@ swal("", "Your Email has been sent!", "success");
 	}
 	});
 	});
-
 	});
-$('#submit').click(function(){
+
+/*checking email is null or not*/
+		$('#submit').click(function(){
 			var email = $('#email').val();
 			var subject = $('#subject').val();
 			if (email == '' || subject == '') {
@@ -54,11 +53,9 @@ $('#submit').click(function(){
 			}
 			else{
 				swal("","Your email has been sent!","success");
-			
-
 			}
 		})
-
+/*swiperJs*/
     var swiper = new Swiper('.swiper-container', {
       slidesPerView: 1,
       centeredSlides: true,
@@ -76,7 +73,7 @@ $('#submit').click(function(){
         disableOnInteraction: false,
       },
     });
-
+/*navbar-toggler-icon change*/
   $('document').ready(function () {
   	$bars = $('.fa-bars');
   	$times = $('.fa-times');
