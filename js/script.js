@@ -1,7 +1,7 @@
 /*typedJs*/
 var typed = new Typed('.typed1',{
 	strings:[
-	'Khant Phone .',
+	'Khant Phone.',
 	'Web developer.',
 	'Freelancer.'
 	],
