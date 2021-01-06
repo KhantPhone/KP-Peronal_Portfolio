@@ -75,7 +75,7 @@ var typed = new Typed('.typed1',{
       },
     });
 /*navbar-toggler-icon change*/
-  $('document').ready(function () {
+  $(document).ready(function () {
   	$bars = $('.fa-bars');
   	$times = $('.fa-times');
 

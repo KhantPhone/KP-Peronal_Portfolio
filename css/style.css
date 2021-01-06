@@ -385,6 +385,12 @@ nav{
 }
 }
 /*swiper*/
+#swiper .swiper-slide img{
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+
+}
 #swiper .swiper-slide{
  padding: 3rem 9rem;
 }
@@ -403,7 +409,8 @@ nav{
 	font-size: 15px;
 }
 #swiper .swiper-slide img{
-	width: 120px;
+	width: 100px;
+	height: 100px;
 }
 
 }
