@@ -71,7 +71,7 @@ var typed = new Typed('.typed1',{
        autoplay: {
         delay:1500,
         disableOnInteraction: false,
-      
+
       },
     });
 /*navbar-toggler-icon change*/
