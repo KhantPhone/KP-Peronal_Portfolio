@@ -24,7 +24,7 @@ var typed = new Typed('.typed1',{
 		swal("", "Your Email has been sent!", "success");
 			}
 	    AOS.init({	    	
-	    	duration:1200,
+	    	duration:1400,
 	    	delay:250,
 	    	offset:100	    	  		    	
 	    });
@@ -69,7 +69,7 @@ var typed = new Typed('.typed1',{
 
       loop:true,
        autoplay: {
-        delay:2000 ,
+        delay:2000 s,
         disableOnInteraction: false,
 
       },
