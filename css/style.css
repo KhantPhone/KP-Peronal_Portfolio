@@ -12,7 +12,7 @@ html{
 }
 html[data-theme = 'dark']{
 	--bg :#202020;
-	--bgc :#212121;
+	--bgc :#222222;
 	--bgf :#fff;
 	--bgn :#949194;
 	--bg-card:#252525;
@@ -35,6 +35,9 @@ html[data-theme = 'dark']{
 }
 .muted-text{
 	color: var(--color-muted) !important;
+}
+.border-bt{
+	border-bottom: 1px solid var(--border-bottom) !important;
 }
 body{
 	margin: 0;
@@ -426,8 +429,7 @@ html.transition *:after {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	border:none;
-	border-bottom: 1px solid var(--border-bottom) !important;
+	border:none;	
 	margin-top: 50px;
 	width: 50%;
 	
