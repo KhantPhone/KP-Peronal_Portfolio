@@ -12,7 +12,7 @@ html{
 }
 html[data-theme = 'dark']{
 	--bg :#202020;
-	--bgc :#222222;
+	--bgc :#212121;
 	--bgf :#fff;
 	--bgn :#949194;
 	--bg-card:#252525;
@@ -35,9 +35,6 @@ html[data-theme = 'dark']{
 }
 .muted-text{
 	color: var(--color-muted) !important;
-}
-.border-bt{
-	border-bottom: 1px solid var(--border-bottom) !important;
 }
 body{
 	margin: 0;
@@ -162,7 +159,7 @@ nav{
 		margin-left:0px;
 	}
 }
-/*toggle checkbox*/
+/*toggle F*/
 input[type=checkbox]{
 	height: 0;
 	width: 0;
@@ -171,7 +168,7 @@ input[type=checkbox]{
 }
 
 label {
-	position: fixed;
+	position: absolute;
 	z-index: 99;
 	top: 6rem;
 	right: 0.75rem;
@@ -185,7 +182,7 @@ label {
 }
 @media screen and (max-width: 768px){
 	label{
-		position: fixed;
+	position: absolute;
 	z-index: 99;
 	top: 5.1rem;
 	right: 0.75rem;
@@ -227,7 +224,7 @@ html.transition,
 html.transition *,
 html.transition *:before,
 html.transition *:after {
-  transition: all 750ms !important;
+  transition: all 1000ms !important;
   transition-delay: 0 !important;
 }
 /*information*/
@@ -429,7 +426,8 @@ html.transition *:after {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	border:none;	
+	border:none;
+	border-bottom: 1px solid var(--border-bottom) !important;
 	margin-top: 50px;
 	width: 50%;
 	
@@ -448,7 +446,7 @@ html.transition *:after {
 	margin-left: auto;
 	margin-right: auto;
 	border:none;
-	border-bottom: 1px solid #000 !important;
+	border-bottom: 1px solid var(--border-bottom) !important;
 	margin-top: 50px;
 	width: 100%;
 
