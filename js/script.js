@@ -80,7 +80,7 @@ var typed = new Typed('.typed1',{
   	$bars = $('.fa-bars');
   	$times = $('.fa-times');
 
-  	$bars.click(function(){
+  	$bars.click(function(){  		
   		$bars.hide();
   		$times.show();
   	});
@@ -89,3 +89,22 @@ var typed = new Typed('.typed1',{
   		$bars.show();
   	})
   })
+ /*toggle checkbox*/
+  var checkbox = document.querySelector('input[name=theme]');
+
+        checkbox.addEventListener('change', function() {
+            if(this.checked) {
+                trans()
+                document.documentElement.setAttribute('data-theme', 'dark')
+            } else {
+                trans()
+                document.documentElement.setAttribute('data-theme', 'light')
+            }
+        })
+
+        let trans = () => {
+            document.documentElement.classList.add('transition');
+            window.setTimeout(() => {
+                document.documentElement.classList.remove('transition')
+            }, 1000)
+        }
