@@ -12,7 +12,7 @@ html{
 }
 html[data-theme = 'dark']{
 	--bg :#202020;
-	--bgc :#2B2B2B;
+	--bgc :#212121;
 	--bgf :#fff;
 	--bgn :#949194;
 	--bg-card:#252525;
@@ -184,7 +184,7 @@ label {
 	label{
 		position: fixed;
 	z-index: 99;
-	top: 5rem;
+	top: 5.1rem;
 	right: 0.75rem;
 	cursor: pointer;
 	text-indent: -9999px;
