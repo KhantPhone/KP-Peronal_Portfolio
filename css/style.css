@@ -1,41 +1,4 @@
-/*defining css variables*/
-html{
-	--bg :#FDFDFD;
-	--bgc :#F8F9FA;
-	--bgf :#181819;
-	--bgn :#8B868B;
-	--bg-card:#fff;
-	--border: #EEE6E6;
-	--border-bottom:#000;
-	--color-muted:#181819;
-	
-}
-html[data-theme = 'dark']{
-	--bg :#202020;
-	--bgc :#212121;
-	--bgf :#fff;
-	--bgn :#949194;
-	--bg-card:#252525;
-	--border: #202020;
-	--border-bottom: #fff;
-	--color-muted:#97958C;
-	
-}
-.bg-light{
-	background: var(--bgc) !important;
-}
-.text-dark{
-	color: var(--bgf) !important;																																																																												 )
-}
-.nav-text{
-	color: var(--bgn) !important;
-}
-.bg-card{
-	background: var(--bg-card) !important;
-}
-.muted-text{
-	color: var(--color-muted) !important;
-}
+
 body{
 	margin: 0;
 	padding:0;
@@ -161,87 +124,6 @@ nav{
 		margin-left:0px;
 	}
 }
-/*toggle checkbox*/
-#toggle-checkbox p {
-	position: absolute;
-	top: 6rem;
-	right: 4.5rem;
-}
-
-input[type=checkbox]{
-	height: 0;
-	width: 0;
-	visibility: hidden;
-
-}
-
-label {
-	position: absolute;
-	z-index: 99;
-	top: 6rem;
-	right: 0.75rem;
-	cursor: pointer;
-	text-indent: -9999px;
-	width: 48px;
-	height: 23px;
-	background: #000;	
-	border-radius: 100px;
-	
-}
-@media screen and (max-width: 768px){
-	label{
-	position: absolute;
-	z-index: 99;
-	top: 5.1rem;
-	right: 0.75rem;
-	cursor: pointer;
-	text-indent: -9999px;
-	width: 48px;
-	height: 23px;
-	background: #000;	
-	border-radius: 100px;
-	}
-
-#toggle-checkbox p {
-	position: absolute;
-	top: 5.175rem;
-	right: 4.2rem;
-	font-size: 13px;
-}
-}
-
-label:after {
-	content: '';
-	position: absolute;
-	top: 3px;
-	left: 3px;
-	width: 16px;
-	height: 16px;
-	background: #fff;
-	border-radius: 90px;
-	transition: 0.3s;
-}
-
-input:checked + label {
-	background:#9457eb;
-}
-
-input:checked + label:after {
-	left: calc(100% - 5px);
-	transform: translateX(-100%);
-}
-
-label:active:after {
-	width: 41px;
-}
-
-html.transition,
-html.transition *,
-html.transition *:before,
-html.transition *:after {
-  transition: all 750ms !important;
-  transition-delay: 0 !important;
-}
 /*information*/
 #info{	
 	width: 100%;
@@ -354,7 +236,7 @@ html.transition *:after {
 	text-decoration: none;
 }
 #completed-prj img{
-	
+	box-shadow: 1px 2px 25px #999;
 	transition: all.3s;
 	border-radius: 5px;
 	width: 100%;
@@ -442,7 +324,7 @@ html.transition *:after {
 	margin-left: auto;
 	margin-right: auto;
 	border:none;
-	border-bottom: 1px solid var(--border-bottom) !important;
+	border-bottom: 1px solid #000 !important;
 	margin-top: 50px;
 	width: 50%;
 	
@@ -461,7 +343,7 @@ html.transition *:after {
 	margin-left: auto;
 	margin-right: auto;
 	border:none;
-	border-bottom: 1px solid var(--border-bottom) !important;
+	border-bottom: 1px solid #000 !important;
 	margin-top: 50px;
 	width: 100%;
 
