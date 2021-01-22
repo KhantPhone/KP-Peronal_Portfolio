@@ -205,7 +205,8 @@ label {
 #toggle-checkbox p {
 	position: absolute;
 	top: 5.1rem;
-	right: 4.35rem;
+	right: 4.2rem;
+	font-size: 14px;
 }
 }
 
