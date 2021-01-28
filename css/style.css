@@ -417,14 +417,16 @@ nav{
 	width: 100px;
 	height: 100px;
 }
+
 }
 #customize button{
-	width: 140px;
-	height: 140px;
+	width: 30px;
+	height: 30px;
  	border-radius: 50%;
 }
 #customize button:focus{
-	outline: none;	
+	outline: none;
+	
 }
 #customize .btn-1{
 	background:#9457eb;		
