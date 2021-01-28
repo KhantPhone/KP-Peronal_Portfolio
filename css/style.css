@@ -420,8 +420,7 @@ nav{
 
 }
 #customize button{
-	width: 30px;
-	height: 30px;
+	
  	border-radius: 50%;
 }
 #customize button:focus{
@@ -429,14 +428,22 @@ nav{
 	
 }
 #customize .btn-1{
+	width: 30px;
+	height: 30px;
 	background:#9457eb;		
 }
 #customize .btn-2{
+	width: 30px;
+	height: 30px;
 	background: #48C9B0;	
 }
 #customize .btn-3{
+	width: 30px;
+	height: 30px;
 	background: #ffd859;	
 }
 #customize .btn-4{
+	width: 30px;
+	height: 30px;
 	background:#f3a6c0;	
 }
