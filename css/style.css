@@ -453,36 +453,3 @@ nav{
 	height: 30px;
 	border-radius: 50%;
 }
-@media screen and (max-width: 768px){
-
-#customize button:focus{
-	outline: none;
-	width: 26px;
-	height: 26px;
-	border: 1px solid #454242;
-}
-#customize .btn-1{
-	background:#9457eb;	
-	width: 28px;
-	height: 28px;
-	border-radius: 50%;
-}
-#customize .btn-2{
-	background: #48C9B0;
-	width: 28px;
-	height: 28px;
-	border-radius: 50%;
-}
-#customize .btn-3{
-	background: #ffd859;
-	width: 28px;
-	height: 28px;
-	border-radius: 50%;
-}
-#customize .btn-4{
-	background:#f3a6c0;
-	width: 28px;
-	height: 28px;
-	border-radius: 50%;
-}
-}
