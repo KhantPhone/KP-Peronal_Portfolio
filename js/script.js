@@ -93,7 +93,7 @@ var typed = new Typed('.typed1',{
 		$("#change-1").on('click', function() {  
 	  		$(".text-fav").css("--custom-text", "#9457eb");
 	  		$(".bg-fav").css("--custom-bg","#9457eb");
-	  		
+	  		swal("", "Successfully changed to PURPLE!", "success");
 		});
 		$("#change-2").on('click', function() {  
 	  		$(".text-fav").css("--custom-text", "#48C9B0");
