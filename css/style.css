@@ -425,8 +425,9 @@ nav{
 }
 #customize button:focus{
 	outline: none;
-	
-	
+	border: 1px solid #4B4949!important;
+	width: 28px;
+	height: 28px;	
 }
 #customize .btn-1{
 	width: 30px;
