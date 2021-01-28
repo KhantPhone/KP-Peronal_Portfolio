@@ -420,8 +420,7 @@ nav{
 
 }
 #customize button{
-
-	border: 1px solid #FFFFFF;
+ border-radius: 50%;
 }
 #customize button:focus{
 	outline: none;
@@ -433,23 +432,23 @@ nav{
 	background:#9457eb;	
 	width: 30px;
 	height: 30px;
-	border-radius: 50%;
+	
 }
 #customize .btn-2{
 	background: #48C9B0;
 	width: 30px;
 	height: 30px;
-	border-radius: 50%;
+	
 }
 #customize .btn-3{
 	background: #ffd859;
 	width: 30px;
 	height: 30px;
-	border-radius: 50%;
+	
 }
 #customize .btn-4{
 	background:#f3a6c0;
 	width: 30px;
 	height: 30px;
-	border-radius: 50%;
+	
 }
