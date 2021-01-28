@@ -75,38 +75,25 @@ var typed = new Typed('.typed1',{
 
       },
     });
-/*navbar-toggler-icon change*/
-  $(document).ready(function () {
-  	$bars = $('.fa-bars');
-  	$times = $('.fa-times');
-
-  	$bars.click(function(){  		
-  		$bars.hide();
-  		$times.show();
-  	});
-  	$times.click(function(){
-  		$times.hide();
-  		$bars.show();
-  	})
-  })
 /*changing main colors*/
+
 		$("#change-1").on('click', function() {  
-	  		$(".text-fav").css("--custom-text", "#9457eb");
-	  		$(".bg-fav").css("--custom-bg","#9457eb");
+	  		$("body").css("--custom-text", "#9457eb");
+	  		$("body").css("--custom-bg","#9457eb");
 	  		swal("", "Successfully changed to PURPLE!", "success");
 		});
 		$("#change-2").on('click', function() {  
-	  		$(".text-fav").css("--custom-text", "#48C9B0");
-	  		$(".bg-fav").css("--custom-bg","#48C9B0");
+	  		$("body").css("--custom-text", "#48C9B0");
+	  		$("body").css("--custom-bg","#48C9B0");
 	  		swal("", "Successfully changed to GREEN!", "success");
 		});
 		$("#change-3").on('click', function() {  
-	  		$(".text-fav").css("--custom-text", "#ffd859");
-	  		$(".bg-fav").css("--custom-bg","#ffd859");
+	  		$("body").css("--custom-text", "#ffd859");
+	  		$("body").css("--custom-bg","#ffd859");
 	  		swal("", "Successfully changed to YELLOW!", "success");
 		});
 		$("#change-4").on('click', function() {  
-	  		$(".text-fav").css("--custom-text", "#f3a6c0");
-	  		$(".bg-fav").css("--custom-bg","#f3a6c0");
+	  		$("body").css("--custom-text", "#f3a6c0");
+	  		$("body").css("--custom-bg","#f3a6c0");
 	  		swal("", "Successfully changed to PINK!", "success");
 		});
