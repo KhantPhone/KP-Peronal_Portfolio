@@ -417,38 +417,24 @@ nav{
 	width: 100px;
 	height: 100px;
 }
-
 }
 #customize button{
- border-radius: 50%;
+	width: 140px;
+	height: 140px;
+ 	border-radius: 50%;
 }
 #customize button:focus{
-	outline: none;
-	width: 28px;
-	height: 28px;
-	border: 1px solid #454242;
+	outline: none;	
 }
 #customize .btn-1{
-	background:#9457eb;	
-	width: 30px;
-	height: 30px;
-	
+	background:#9457eb;		
 }
 #customize .btn-2{
-	background: #48C9B0;
-	width: 30px;
-	height: 30px;
-	
+	background: #48C9B0;	
 }
 #customize .btn-3{
-	background: #ffd859;
-	width: 30px;
-	height: 30px;
-	
+	background: #ffd859;	
 }
 #customize .btn-4{
-	background:#f3a6c0;
-	width: 30px;
-	height: 30px;
-	
+	background:#f3a6c0;	
 }
