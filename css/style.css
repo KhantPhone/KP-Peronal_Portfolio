@@ -3,10 +3,12 @@ body{
 	margin: 0;
 	padding:0;
 	overflow-x: hidden;
-	background:var(--bg);	
+	background:#FFFFFF;	
 }
 html{
 	scroll-behavior: smooth;
+	--custom-text:#9457eb;
+	--custom-bg:#9457eb;
 }
 
 
@@ -44,18 +46,21 @@ html{
 .font-30{
 	font-size: 30px;
 }
+.bg-light{
+	background: #FBFBFB!important;
+}
 .text-fav{
-	color: #9457eb;
+	color: var(--custom-text);
 }
 .bg-fav{
-	background: #9457eb;
+	background: var(--custom-bg);
 }
 #custom-border-1{
 	width: 9%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	border-bottom: 3px solid #9457eb;
+	border-bottom: 3px solid var(--custom-bg)!important;
 	
 }
 #cutom-border-2{
@@ -63,7 +68,7 @@ html{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	border-bottom: 3px solid #9457eb;
+	border-bottom: 3px solid var(--custom-bg)!important;
 	margin-bottom: 0.4rem;
 	margin-top: 0px;
 }
@@ -74,7 +79,7 @@ html{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	border-bottom: 3px solid #9457eb;
+	border-bottom: 3px solid var(--custom-bg)!important;
 	
 }
 #cutom-border-2{
@@ -82,7 +87,7 @@ html{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	border-bottom: 3px solid #9457eb;
+	border-bottom: 3px solid var(--custom-bg)!important;
 	margin-bottom: 0.4rem;
 	margin-top: 0px;
 }
@@ -117,7 +122,7 @@ nav{
 	margin-left: 30px;
 }
 .nav-link:hover{
-	color: #9457eb!important;
+	color: var(--custom-text)!important;
 }
 @media screen and (max-width: 768px){
 	.nav-link{
@@ -159,6 +164,7 @@ nav{
 }
 /*intro*/
 #intro button{
+
 	box-shadow: 0 1px 15px 0 rgba(0,0,25,0.2); 
 	transition: 0.5s ease;
 }
@@ -218,6 +224,7 @@ nav{
 }
 /*completed projects*/
 #completed-prj button{
+	
 	box-shadow: 0 1px 15px 0 rgba(0,0,25,0.2); 
 	transition: 0.5s ease;
 }
@@ -250,8 +257,7 @@ nav{
 	opacity: 0.5;	
 }
 #completed-prj .col-md-6{
-	margin-top: 3.5rem;
-	border-bottom: 1px solid var(--border);
+	margin-top: 3.5rem;	
 	padding-bottom: 2rem;
 }
 /*to-top*/
@@ -329,13 +335,12 @@ nav{
 	width: 50%;
 	
 }
-#contanct button{
+#contanct button{	
 	border:none;
 	box-shadow: 0 1px 15px 0 rgba(0,0,25,0.2); 
 	transition: 0.5s ease;
-
-
 }
+
 @media screen and (max-width: 768px){
 	#contanct  input[type = text],
 	#contanct  input[type = email]{
@@ -360,7 +365,7 @@ nav{
 
 }
 #services .card:hover{
-	background: #9457eb;
+	background: var(--custom-bg)!important;
 	box-shadow: 0 1px 15px 0 rgba(0,0,25,0.3);
 }
 #services .card:hover > img{	
@@ -413,4 +418,71 @@ nav{
 	height: 100px;
 }
 
+}
+#customize button{
+
+	border: 1px solid #FFFFFF;
+}
+#customize button:focus{
+	outline: none;
+	width: 28px;
+	height: 28px;
+	border: 1px solid #454242;
+}
+#customize .btn-1{
+	background:#9457eb;	
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+#customize .btn-2{
+	background: #48C9B0;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+#customize .btn-3{
+	background: #ffd859;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+#customize .btn-4{
+	background:#f3a6c0;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+@media screen and (max-width: 768px){
+
+#customize button:focus{
+	outline: none;
+	width: 26px;
+	height: 26px;
+	border: 1px solid #454242;
+}
+#customize .btn-1{
+	background:#9457eb;	
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+}
+#customize .btn-2{
+	background: #48C9B0;
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+}
+#customize .btn-3{
+	background: #ffd859;
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+}
+#customize .btn-4{
+	background:#f3a6c0;
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+}
 }

@@ -89,22 +89,24 @@ var typed = new Typed('.typed1',{
   		$bars.show();
   	})
   })
- /*toggle checkbox*/
-  var checkbox = document.querySelector('input[name=theme]');
-
-        checkbox.addEventListener('change', function() {
-            if(this.checked) {
-                trans()
-                document.documentElement.setAttribute('data-theme', 'dark')
-            } else {
-                trans()
-                document.documentElement.setAttribute('data-theme', 'light')
-            }
-        })
-
-        let trans = () => {
-            document.documentElement.classList.add('transition');
-            window.setTimeout(() => {
-                document.documentElement.classList.remove('transition')
-            }, 1000)
-        }
+/*changing main colors*/
+		$("#change-1").on('click', function() {  
+	  		$(".text-fav").css("--custom-text", "#9457eb");
+	  		$(".bg-fav").css("--custom-bg","#9457eb!important");
+	  		swal("", "Successfully changed to PURPLE!", "success");
+		});
+		$("#change-2").on('click', function() {  
+	  		$(".text-fav").css("--custom-text", "#48C9B0");
+	  		$(".bg-fav").css("--custom-bg","#48C9B0");
+	  		swal("", "Successfully changed to GREEN!", "success");
+		});
+		$("#change-3").on('click', function() {  
+	  		$(".text-fav").css("--custom-text", "#ffd859");
+	  		$(".bg-fav").css("--custom-bg","#ffd859");
+	  		swal("", "Successfully changed to YELLOW!", "success");
+		});
+		$("#change-4").on('click', function() {  
+	  		$(".text-fav").css("--custom-text", "#f3a6c0");
+	  		$(".bg-fav").css("--custom-bg","#f3a6c0");
+	  		swal("", "Successfully changed to PINK!", "success");
+		});
