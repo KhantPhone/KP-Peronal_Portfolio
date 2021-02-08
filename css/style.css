@@ -444,3 +444,26 @@ nav{
 	height: 30px;
 	background:#f3a6c0;	
 }
+@media screen and (max-width: 768px) {
+	
+#customize .btn-1{
+	width: 28px;
+	height: 28px;
+	background:#9457eb;		
+}
+#customize .btn-2{
+	width: 28px;
+	height: 28px;
+	background: #48C9B0;	
+}
+#customize .btn-3{
+	width: 28px;
+	height: 28px;
+	background: #ffd859;	
+}
+#customize .btn-4{
+	width: 28px;
+	height: 28px;
+	background:#f3a6c0;	
+}
+}
