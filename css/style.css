@@ -453,7 +453,7 @@ nav{
 }
 @media screen and (max-width: 768px){
 	#customize button{
-		margin-right: 0.75rem !important;
+		margin-right: 0.85rem !important;
 	}
 	#customize .btn-1{
 		width: 28px;
