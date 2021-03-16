@@ -455,4 +455,24 @@ nav{
 	#customize button{
 		margin-right: 0.75rem !important;
 	}
+	#customize .btn-1{
+		width: 28px;
+		height: 28px;
+		border-radius: 50%;
+	}
+	#customize .btn-2{
+		width: 28px;
+		height: 28px;
+		border-radius: 50%;
+	}
+	#customize .btn-3{
+		width: 28px;
+		height: 28px;
+		border-radius: 50%;
+	}
+	#customize .btn-4{
+		width: 28px;
+		height: 28px;
+		border-radius: 50%;
+	}
 }
