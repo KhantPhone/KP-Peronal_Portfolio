@@ -166,6 +166,9 @@ nav{
 	box-shadow: 0 1px 15px 0 rgba(0,0,25,0.4);
 	transform: translate(-1%);
 }
+#intro img{
+	border-radius: 1px;
+}
 #intro .about-me{
 	margin-top: 6.5rem;
 }
@@ -412,7 +415,7 @@ nav{
 
 }
 #customize button{	
- 	border-radius: 50%;
+ 	
  	transition: 0.5s ease;
 }
 #customize button:hover{
@@ -425,45 +428,26 @@ nav{
 	
 }
 #customize .btn-1{
+	border-radius: 50%;
 	width: 30px;
 	height: 30px;
 	background:#9457eb;		
 }
 #customize .btn-2{
+	border-radius: 50%;
 	width: 30px;
 	height: 30px;
 	background: #48C9B0;	
 }
 #customize .btn-3{
+	border-radius: 50%;
 	width: 30px;
 	height: 30px;
 	background: #ffd859;	
 }
 #customize .btn-4{
+	border-radius: 50%;
 	width: 30px;
 	height: 30px;
 	background:#f3a6c0;	
-}
-@media screen and (max-width: 768px) {
-	
-#customize .btn-1{
-	width: 28px;
-	height: 28px;
-	background:#9457eb;		
-}
-#customize .btn-2{
-	width: 28px;
-	height: 28px;
-	background: #48C9B0;	
-}
-#customize .btn-3{
-	width: 28px;
-	height: 28px;
-	background: #ffd859;	
-}
-#customize .btn-4{
-	width: 28px;
-	height: 28px;
-	background:#f3a6c0;	
-}
 }
