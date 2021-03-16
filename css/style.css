@@ -415,7 +415,7 @@ nav{
 
 }
 #customize button{	
- 	
+ 	margin-right: 1rem;
  	transition: 0.5s ease;
 }
 #customize button:hover{
@@ -450,4 +450,9 @@ nav{
 	width: 30px;
 	height: 30px;
 	background:#f3a6c0;	
+}
+@media screen and (max-width: 768px){
+	#customize button{
+		margin-right: 0.75rem !important;
+	}
 }
