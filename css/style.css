@@ -390,7 +390,9 @@ nav{
 #services .card:hover > img{	
 	
 	transition: 0.5s  ease;
-	transform: translateY(-15%);
+	transform: translateY(-15%)  rotateY(360deg) ;
+
+	
 	
 }
 @media screen and (max-width: 768px){
@@ -403,8 +405,8 @@ nav{
 
 #services .card:hover > img{	
 	
-	transition: 0.5s  ease;
-	transform: translateY(-0%);
+	transition: 1.6s  ease;
+	transform:  rotateY(360deg);
 	
 }
 }
