@@ -129,6 +129,7 @@ nav{
 }
 /*information*/
 #info{
+	
 	width: 100%;
 	background-size: cover;
 	background-position: center;
@@ -154,8 +155,11 @@ nav{
 	transform: translate(-1%);
 }
 @media screen and (max-width: 768px){	
-	#info img{	
-		margin-left: 15px!important;
+	#info img{
+		margin-top: 2rem;
+		max-width: 100%;
+		height: 300px;
+		float: right; 		
 	}
 	#info p{	
 		letter-spacing: 0px!important;
@@ -178,6 +182,8 @@ nav{
 }
 /*intro*/
 #intro{
+
+
 }
 #intro button{
 
@@ -229,15 +235,15 @@ nav{
 	}
 }
 @media screen and (max-width: 786px){
-	#counter .col-md-3 p {
-		font-size: 18px;
+	#counter .border-counter p {
+		font-size: 17px;
 	}
-	#counter .col-md-3 span {
-		font-size: 20px;
+	#counter .border-counter span {
+		font-size: 19px;
 	}
 }
 @media screen and (max-width: 768px){	
-#counter .col-md-3{
+#counter .border-counter{
 	
 	margin-top: 1.5rem;
 	margin-bottom: 1.5rem;
