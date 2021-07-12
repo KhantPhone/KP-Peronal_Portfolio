@@ -119,6 +119,9 @@ nav{
 .navbar-toggler{	
 	display: contents;	
 }
+.navbar-toggler:hover{
+	color: var(--custom-text)!important;
+}
 .nav-link{
 	margin-left: 30px;
 }
