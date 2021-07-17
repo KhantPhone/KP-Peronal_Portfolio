@@ -465,7 +465,7 @@ nav{
 }
 #customize button:hover{
 	opacity: 0.7;
-
+	border: 1px solid #4B4949;
 	
 }
 #customize button:focus{
@@ -474,26 +474,26 @@ nav{
 }
 #customize .btn-1{
 	border-radius: 50%;
-	width: 30px;
-	height: 30px;
+	width: 29px;
+	height: 29px;
 	background:#9457eb;		
 }
 #customize .btn-2{
 	border-radius: 50%;
-	width: 30px;
-	height: 30px;
+	width: 29px;
+	height: 29px;
 	background: #48C9B0;	
 }
 #customize .btn-3{
 	border-radius: 50%;
-	width: 30px;
-	height: 30px;
+	width: 29px;
+	height: 29px;
 	background: #ffd859;	
 }
 #customize .btn-4{
 	border-radius: 50%;
-	width: 30px;
-	height: 30px;
+	width: 29px;
+	height: 29px;
 	background:#f3a6c0;	
 }
 @media screen and (max-width: 768px){
