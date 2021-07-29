@@ -187,10 +187,7 @@ nav{
 	}
 }
 /*intro*/
-#intro{
 
-
-}
 #intro button{
 
 	box-shadow: 0 1px 15px 0 rgba(0,0,25,0.2); 
@@ -229,6 +226,56 @@ nav{
 		margin-top: 3rem;
 	}
 
+}
+/*education*/
+.education_data{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+
+}
+.education_title{
+   margin-top: .5rem;
+    font-weight: 500;
+}
+
+.education_subtitle{
+
+    display: inline-block;
+    
+    margin-bottom: 1rem;       
+}
+
+.education_calendar{
+  
+    color: var(--custom-text );
+}
+
+.education_rounder{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: var(--custom-text);
+}
+
+.education_line{
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: var(--custom-text);
+    transform: translate(6px , -7px);
+}
+@media screen and (max-width:768px){
+	.education_subtitle{
+		font-size: 14px;
+	}
+	.education_title{
+		font-size:20px;
+	}
+	.education_calendar{
+		font-size: 12px;
+	}
 }
 /*counter*/
 .counter-border-right{
@@ -358,9 +405,9 @@ nav{
 	0%{width: 0%};
 	100%{width: 100%;}
 }
-/*contanct*/
-#contanct  input[type = text],
-#contanct  input[type = email]{
+/*contact*/
+#contact  input[type = text],
+#contact  input[type = email]{
 	background: none;
 	display: block;
 	margin-left: auto;
@@ -371,17 +418,17 @@ nav{
 	width: 50%;
 	
 }
-#contanct button{	
+#contact button{	
 	border:none;
 	box-shadow: 0 1px 15px 0 rgba(0,0,25,0.2); 
 	transition: 0.5s ease;
 }
-#contanct button:hover{
+#contact button:hover{
 	background: var(--custom-bg);
 }
 @media screen and (max-width: 768px){
-	#contanct  input[type = text],
-	#contanct  input[type = email]{
+	#contact  input[type = text],
+	#contact  input[type = email]{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -424,9 +471,6 @@ nav{
 
 #services .card:hover > img{	
 	
-	
-	transform:  rotateY(0deg);
-	
 }
 }
 /*swiper*/
@@ -459,6 +503,7 @@ nav{
 }
 
 }
+/*customize*/
 #customize button{	
  	margin-right: 1rem;
  	transition: 0.5s ease;

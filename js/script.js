@@ -97,3 +97,4 @@ var typed = new Typed('.typed1',{
 	  		$("body").css("--custom-bg","#f3a6c0");
 	  		swal("", "Successfully changed to PINK!", "success");
 		});
+
