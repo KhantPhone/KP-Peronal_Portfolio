@@ -235,7 +235,7 @@ nav{
 
 }
 .education_title{
-   margin-top: .5rem;
+   
     font-weight: 500;
 }
 
@@ -253,15 +253,15 @@ nav{
 
 .education_rounder{
     display: inline-block;
-    width: 13px;
-    height: 13px;
+    width: 14px;
+    height: 14px;
     border-radius: 50%;
     background-color: var(--custom-text);
 }
 
 .education_line{
     display: block;
-    width: 1px;
+    width: 2px;
     height: 100%;
     background-color: var(--custom-text);
     transform: translate(6px , -7px);
@@ -454,11 +454,8 @@ nav{
 	box-shadow: 0 1px 15px 0 rgba(0,0,25,0.3);
 }
 #services .card:hover > img{	
-	
 	transition: 1s  ease;
 	transform: translateY(-15%)  rotateY(360deg) ;
-
-	
 	
 }
 @media screen and (max-width: 768px){
@@ -470,7 +467,7 @@ nav{
 	}
 
 #services .card:hover > img{	
-	
+	transform: translateY(0%)
 }
 }
 /*swiper*/
