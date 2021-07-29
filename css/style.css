@@ -257,7 +257,7 @@ nav{
 
 .education_line{
     display: block;
-    width: 2px;
+    width: 5px;
     height: 100%;
     background-color: var(--custom-text);
     transform: translate(6px , -7px);
