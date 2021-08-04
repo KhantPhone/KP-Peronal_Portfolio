@@ -25,7 +25,7 @@ var typed = new Typed('.typed1',{
 			}
 /*AOS*/
 	    AOS.init({	    	
-	    	duration:1400,
+	    	duration:1500,
 	    	delay:250,
 	    	offset:100	    	  		    	
 	    });
