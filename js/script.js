@@ -1,4 +1,5 @@
 /*typedJs*/
+
 var typed = new Typed('.typed1',{
 	strings:[
 	'Khant Phone.',
@@ -9,7 +10,9 @@ var typed = new Typed('.typed1',{
 	backSpeed:50,
 	loop:true
 })
+
 /*toTop*/
+
  const toTop = document.querySelector(".to-top");
   window.addEventListener("scroll",() => {
 
@@ -19,17 +22,23 @@ var typed = new Typed('.typed1',{
         toTop.classList.remove("active");
      }
     });
+
 /*sweetalertJs*/
+
 		function myFunction() {			
 		swal("", "Your Email has been sent!", "success");
 			}
+
 /*AOS*/
+
 	    AOS.init({	    	
 	    	duration:1500,
 	    	delay:250,
 	    	offset:100	    	  		    	
 	    });
+
 /*counterJs*/
+
 	$(document).ready(function() {
 	$('.counter').each(function () {
 	$(this).prop('Counter',0).animate({
