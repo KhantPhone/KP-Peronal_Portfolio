@@ -489,9 +489,6 @@ nav{
 #swiper .swiper-slide{
  padding: 3rem 9rem;
 }
-#swiper .swiper-pagination-bullet{
-	background-color: var(--custom-bg);
-}
 @media screen and (max-width: 768px){
 
 #swiper .swiper-slide{

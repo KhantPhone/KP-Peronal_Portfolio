@@ -69,7 +69,7 @@ var typed = new Typed('.typed1',{
     var swiper = new Swiper('.swiper-container', {
       slidesPerView: 1,
       centeredSlides: true,
-      spaceBetween: 30,
+      spaceBetween: 60,
       grabCursor: true,
       loop:true,
       pagination: {
