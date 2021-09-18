@@ -9,7 +9,7 @@ var typed = new Typed('.typed1',{
 	typeSpeed:50,
 	backSpeed:50,
 	loop:true
-})
+});
 
 /*toTop*/
 
@@ -54,6 +54,7 @@ var typed = new Typed('.typed1',{
 	});
 
 /*checking email is null or not*/
+
 		$('#submit').click(function(){
 			var email = $('#email').val();
 			var subject = $('#subject').val();
@@ -64,9 +65,11 @@ var typed = new Typed('.typed1',{
 			else{
 				swal("","Your email has been sent!","success");
 			}
-		})
+		});
+
 /*swiperJs*/
-    var swiper = new Swiper('.swiper-container', {
+
+    var swiper = new Swiper('.swiper', {
       slidesPerView: 1,
       centeredSlides: true,
       spaceBetween: 60,
@@ -75,6 +78,7 @@ var typed = new Typed('.typed1',{
       pagination: {
         el: '.swiper-pagination',
         clickable: true,
+        dynamicBullets : true,
       },
 
       loop:true,
@@ -82,8 +86,10 @@ var typed = new Typed('.typed1',{
         delay:2000 ,
         disableOnInteraction: false,
 
+
       },
     });
+    
 /*changing main colors*/
 
 		$("#change-1").on('click', function() {  
