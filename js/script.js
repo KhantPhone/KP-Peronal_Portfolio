@@ -1,3 +1,14 @@
+
+
+/*preloader*/
+ $(window).on('load',function(){
+ 		$(".loader").fadeOut(1000);
+ 		$(".content").fadeIn(1500);
+ })
+
+
+
+
 /*typedJs*/
 
 var typed = new Typed('.typed1',{
@@ -36,6 +47,7 @@ var typed = new Typed('.typed1',{
 	    	delay:250,
 	    	offset:100	    	  		    	
 	    });
+
 
 /*counterJs*/
 

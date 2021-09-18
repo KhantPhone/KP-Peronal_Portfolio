@@ -103,7 +103,29 @@ html{
 	}
 
 }
+
+/*preloader*/
+.content{
+	display: none;
+}
+
+.loader{	
+	height: 100vh;
+	width: 100vw;	
+	position: absolute;
+	background: #FBFBFB;
+}
+
+.loader>div{	
+	position: fixed;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
 	
+}
+
 /*header*/
 @media screen and (max-width: 768px){
 	.navbar-brand{
