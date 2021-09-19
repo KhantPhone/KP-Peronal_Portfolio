@@ -1,5 +1,9 @@
 
 
+/*wowJs*/
+
+	new WOW().init();
+
 /*preloader*/
  $(window).on('load',function(){
  		$(".loader").fadeOut(1000);
@@ -42,11 +46,11 @@ var typed = new Typed('.typed1',{
 
 /*AOS*/
 
-	    AOS.init({	    	
+	    /*AOS.init({	    	
 	    	duration:1500,
 	    	delay:250,
 	    	offset:100	    	  		    	
-	    });
+	    });*/
 
 
 /*counterJs*/
