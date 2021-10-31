@@ -144,7 +144,9 @@ nav{
 	overflow: hidden;
 	box-shadow: 0 1px 15px 0 rgba(0,0,25,0.2);
 }
-
+nav .active {
+	color: var(--custom-text)!important;
+}
 .navbar-toggler{	
 	display: contents;	
 }
@@ -229,6 +231,8 @@ nav{
 #intro .about-me{
 	margin-top: 6.5rem;
 }
+/*scrollSpy*/
+
 @media screen and (max-width: 768px){
 	#intro {
 		margin-top: 1rem;
