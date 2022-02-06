@@ -1,66 +1,66 @@
 /*scrollSpy*/
-	let intro = document.querySelector("#intro");
-	let completedPrj = document.querySelector("#completed-prj");
-	let myskills = document.querySelector("#myskills");
-	let services = document.querySelector("#services");
-	let contact = document.querySelector("#contact");
+	// let intro = document.querySelector("#intro");
+	// let completedPrj = document.querySelector("#completed-prj");
+	// let myskills = document.querySelector("#myskills");
+	// let services = document.querySelector("#services");
+	// let contact = document.querySelector("#contact");
 
-	window.addEventListener("scroll",()=>{
+	// window.addEventListener("scroll",()=>{
 
-		var windo = window.pageYOffset;
+	// 	var windo = window.pageYOffset;
 
-		if (intro.offsetTop <= windo && completedPrj.offsetTop > windo) {
-			console.log("intro");
+	// 	if (intro.offsetTop <= windo && completedPrj.offsetTop > windo) {
+	// 		console.log("intro");
 		
-		}
+	// 	}
 
-		else if (completedPrj.offsetTop <= windo && myskills.offsetTop > windo) {
-			console.log("completedPrj");
+	// 	else if (completedPrj.offsetTop <= windo && myskills.offsetTop > windo) {
+	// 		console.log("completedPrj");
 			
-		}
+	// 	}
 
-		else if (myskills.offsetTop <= windo && services.offsetTop > windo) {
-			console.log("myskills");
-		}
+	// 	else if (myskills.offsetTop <= windo && services.offsetTop > windo) {
+	// 		console.log("myskills");
+	// 	}
 
-		else if (contact.offsetTop <= windo ) {
-			console.log("contact");
-		}
+	// 	else if (contact.offsetTop <= windo ) {
+	// 		console.log("contact");
+	// 	}
 
-		else if (services.offsetTop <= windo && contact.offsetTop > windo) {
-			console.log("services");
-		}
+	// 	else if (services.offsetTop <= windo && contact.offsetTop > windo) {
+	// 		console.log("services");
+	// 	}
 
 		
 
 
-	});
+	// });
 
 
-	/*let sections = document.querySelectorAll('section');
-	let navLinks = document.querySelectorAll('header nav a');
+	// let sections = document.querySelectorAll('section');
+	// let navLinks = document.querySelectorAll('header nav a');
 
-	window.onScroll = () => {
+	// window.onScroll = () => {
 
-		sections.forEach(sec => {
+	// 	sections.forEach(sec => {
 
-			let top = window.scrollY;
-			let offset = window.offsetTop;
-			let height = sec.offsetHeight;
-			let id = sec.getAttribute('id');
+	// 		let top = window.scrollY;
+	// 		let offset = window.offsetTop;
+	// 		let height = sec.offsetHeight;
+	// 		let id = sec.getAttribute('id');
 
-			if (top >= offset && top < offset + height) {
-				navLinks.forEach(links => {
-						links.classList.remove('active');
-						document.querySelector('header nav a[href *= '+ id + ']').classList.add('active');
+	// 		if (top >= offset && top < offset + height) {
+	// 			navLinks.forEach(links => {
+	// 					links.classList.remove('active');
+	// 					document.querySelector('header nav a[href *= '+ id + ']').classList.add('active');
 
-				});
-			};
+	// 			});
+	// 		};
 
-		});
+	// 	});
 
-	};
-*/
+	// };
+
 
 
 /*wowJs*/
