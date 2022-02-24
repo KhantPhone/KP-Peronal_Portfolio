@@ -63,9 +63,14 @@
 
 
 
-/*wowJs*/
-
-	new WOW().init();
+/*AOSJs*/
+	  $(function() {
+      AOS.init({
+      	offset:0,
+      	duration: 1200,
+      })
+ });
+	
 
 /*preloader*/
 
