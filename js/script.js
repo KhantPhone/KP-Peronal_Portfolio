@@ -65,10 +65,7 @@
 
 /*AOSJs*/
 	  $(function() {
-      AOS.init({
-      	offset:0,
-      	duration: 1200,
-      })
+      new WOW().init();
  });
 	
 
