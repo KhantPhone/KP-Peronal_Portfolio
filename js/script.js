@@ -63,7 +63,7 @@
 
 
 
-/*AOSJs*/
+/*WOWJs*/
 	  $(function() {
       new WOW().init();
  });
